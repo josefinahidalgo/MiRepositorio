@@ -12,18 +12,3 @@ import java.io.InputStream;
 import java.io.OutputStream; 
 import java.io.IOException; 
 
-public class ejercicio extends PApplet {
-  public void setup() {
-
-    noLoop();
-  }
-
-  static public void main(String[] passedArgs) {
-    String[] appletArgs = new String[] { "ejercicio" };
-    if (passedArgs != null) {
-      PApplet.main(concat(appletArgs, passedArgs));
-    } else {
-      PApplet.main(appletArgs);
-    }
-  }
-}
